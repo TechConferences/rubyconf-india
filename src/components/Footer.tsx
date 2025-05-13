@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="col-span-1">
               <div className="text-2xl font-bold mb-4">
                 <span className="font-display">RubyConf</span>
-                <span className="text-ocean-400">India</span>
+                <span className="text-amber-400">India</span>
               </div>
               <p className="text-gray-400 mb-4">
                 The premier Ruby conference in India. Join us for two days of technical talks, panel discussions, and networking.
@@ -67,9 +67,9 @@ const Footer = () => {
                 <input
                   type="email"
                   placeholder="Your email address"
-                  className="w-full px-4 py-2 rounded bg-white/10 border border-white/20 focus:outline-none focus:ring-1 focus:ring-ocean-400"
+                  className="w-full px-4 py-2 rounded bg-white/10 border border-white/20 focus:outline-none focus:ring-1 focus:ring-amber-400"
                 />
-                <Button className="w-full bg-ocean-600 hover:bg-ocean-700">
+                <Button className="w-full bg-amber-600 hover:bg-amber-700">
                   Subscribe
                 </Button>
               </form>
