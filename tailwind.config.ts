@@ -53,6 +53,18 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				burgundy: {
+					50: '#FCE9EE', 
+					100: '#F8D3DC',
+					200: '#F0A7BA',
+					300: '#E87B97',
+					400: '#E05075',
+					500: '#C72C53',
+					600: '#A01D3F',
+					700: '#79142F',
+					800: '#540221',
+					900: '#370016'
+				},
 				ruby: {
 					50: '#FEF2F2', 
 					100: '#FEE2E2',

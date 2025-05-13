@@ -16,7 +16,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 24 94% 53%;
+    --primary: 342 97% 16%;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 210 40% 96.1%;
@@ -33,7 +33,7 @@
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 24 94% 53%;
+    --ring: 342 97% 16%;
 
     --radius: 0.5rem;
   }
@@ -48,8 +48,8 @@
     @apply bg-background text-foreground;
   }
 
-  .amber-gradient {
-    @apply bg-gradient-to-r from-amber-600 to-amber-800;
+  .burgundy-gradient {
+    @apply bg-gradient-to-r from-burgundy-700 to-burgundy-900;
   }
 
   .glass {
@@ -65,7 +65,7 @@
   width: 0.75rem;
   height: 0.75rem;
   border-radius: 50%;
-  background-color: theme('colors.amber.600');
+  background-color: theme('colors.burgundy.700');
 }
 
 .schedule-timeline::before {
@@ -75,5 +75,5 @@
   top: 0;
   height: 100%;
   width: 2px;
-  background-color: theme('colors.amber.200');
+  background-color: theme('colors.burgundy.200');
 }

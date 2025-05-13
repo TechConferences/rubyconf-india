@@ -6,18 +6,18 @@ const LanguageRoast = () => {
     <section id="language-roast" className="py-20">
       <div className="container max-w-6xl">
         <div className="text-center mb-12">
-          <div className="inline-block px-4 py-1 bg-amber-50 text-amber-700 font-medium rounded-full mb-4">
+          <div className="inline-block px-4 py-1 bg-burgundy-50 text-burgundy-800 font-medium rounded-full mb-4">
             NEW FOR 2025
           </div>
           <h2 className="text-3xl md:text-4xl font-display font-bold mb-4">Language Roast</h2>
-          <div className="w-24 h-1 bg-amber-600 mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-burgundy-800 mx-auto mb-6"></div>
           <p className="max-w-2xl mx-auto text-gray-600">
             An entertaining session where programming languages playfully critique each other.
             Fun, educational, and guaranteed to spark friendly debates!
           </p>
         </div>
 
-        <div className="bg-gradient-to-br from-amber-600 to-amber-800 rounded-2xl p-8 text-white shadow-xl relative overflow-hidden">
+        <div className="bg-gradient-to-br from-burgundy-700 to-burgundy-900 rounded-2xl p-8 text-white shadow-xl relative overflow-hidden">
           <div className="absolute top-0 right-0 w-64 h-64 opacity-10">
             <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path d="M20.808 8.88c-.792-3.644-3.618-6.052-7.23-6.88A8.06 8.06 0 0 0 12 2c-.5 0-.994.04-1.476.118-3.623.796-6.488 3.25-7.216 6.937-.087.45-.125.9-.109 1.345l.024.329c.014.175.032.35.054.525a7.014 7.014 0 0 0 3.645 5.121l-.87 3.132a.5.5 0 0 0 .723.582l2.762-1.579c.59.207 1.206.37 1.843.483A8.06 8.06 0 0 0 12 22a8.06 8.06 0 0 0 1.618-.162 7.956 7.956 0 0 0 3.375-1.339 7.943 7.943 0 0 0 2.937-4.432c.088-.345.154-.698.194-1.056a8.599 8.599 0 0 0 .055-1.76 7.965 7.965 0 0 0-.082-.771c-.036-.222-.077-.444-.125-.659a7.956 7.956 0 0 0-.613-1.854l1.294-.744a.5.5 0 0 0 .168-.757l-.729-1.093a.504.504 0 0 0-.717-.144L17.4 10.175a7.968 7.968 0 0 0-4.138-2.5V7a.5.5 0 0 0-1 0v.943a7.975 7.975 0 0 0-3.499 1.64l-1.17-.78a.504.504 0 0 0-.691.173l-.597 1.044a.5.5 0 0 0 .199.73l1.4.7a7.978 7.978 0 0 0 .356 4.76 7.951 7.951 0 0 0 3.81 3.925v1.108a.5.5 0 0 0 1 0v-1.305c.245.043.494.076.747.097A8.06 8.06 0 0 0 12 20a8.06 8.06 0 0 0 1.618-.162c.274-.055.54-.124.8-.206v1.211a.5.5 0 0 0 1 0v-1.559a7.954 7.954 0 0 0 3.072-1.497l1.261.841a.504.504 0 0 0 .717-.144l.503-1.204a.5.5 0 0 0-.198-.676l-1.83-.913a7.969 7.969 0 0 0 .739-2.397l1.849-.37a.5.5 0 0 0 .394-.59l-.28-1.348a.503.503 0 0 0-.605-.38l-1.83.366a8.002 8.002 0 0 0-.443-1.428c-.166-.39-.36-.765-.58-1.123l1.284-.739a.5.5 0 0 0 .168-.757l-.729-1.093a.504.504 0 0 0-.717-.144l-1.25.833a7.98 7.98 0 0 0-1.545-1.526c.315.386.594.8.832 1.241z"></path>
@@ -37,7 +37,7 @@ const LanguageRoast = () => {
                 <h4 className="font-bold mb-3">What to expect:</h4>
                 <ul className="space-y-2">
                   <li className="flex items-start">
-                    <div className="mr-3 mt-1 text-amber-300">
+                    <div className="mr-3 mt-1 text-burgundy-300">
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                       </svg>
@@ -47,7 +47,7 @@ const LanguageRoast = () => {
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <div className="mr-3 mt-1 text-amber-300">
+                    <div className="mr-3 mt-1 text-burgundy-300">
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                       </svg>
@@ -57,7 +57,7 @@ const LanguageRoast = () => {
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <div className="mr-3 mt-1 text-amber-300">
+                    <div className="mr-3 mt-1 text-burgundy-300">
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                       </svg>
@@ -67,7 +67,7 @@ const LanguageRoast = () => {
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <div className="mr-3 mt-1 text-amber-300">
+                    <div className="mr-3 mt-1 text-burgundy-300">
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                       </svg>
@@ -80,7 +80,7 @@ const LanguageRoast = () => {
               </div>
               
               <div className="flex items-center gap-4">
-                <Button className="bg-white text-amber-700 hover:bg-amber-50">
+                <Button className="bg-white text-burgundy-800 hover:bg-burgundy-50">
                   Reserve Your Seat
                 </Button>
                 <div className="text-sm opacity-80">
@@ -92,7 +92,7 @@ const LanguageRoast = () => {
             <div className="grid grid-cols-3 gap-4 md:gap-6">
               <div className="bg-white rounded-lg p-4 shadow-lg transform -rotate-3">
                 <div className="aspect-square w-full bg-red-100 rounded flex items-center justify-center mb-3">
-                  <svg viewBox="0 0 32 32" className="text-ruby-600 w-12 h-12" fill="currentColor">
+                  <svg viewBox="0 0 32 32" className="text-burgundy-700 w-12 h-12" fill="currentColor">
                     <path d="M27.758,6.741a16.035,16.035,0,0,1,1.51,5.753c.106.907,1.294,13.252-.524,14.431-1.6,1.04-10.907,2.673-14.208.379-1.8-1.251-3.644-12.219-3.644-12.219.6-4.3.969-5.746,1.115-6.38a9.222,9.222,0,0,1,1.85-3.646c1.229-1.568,1.966-1.9,2.121-2A12.253,12.253,0,0,1,19.8,2.089a16.326,16.326,0,0,1,7.076,3.748c.429.406.618.6.883.9" />
                     <path d="M17.415,17.811s-.218.293-.621.293c-.587,0-.618-.483-.618-.546a4.486,4.486,0,0,1,.166-1.114c.063-.179,1.732-5.36,1.792-5.469.073-.136.19-.387.627-.387.483,0,.593.239.593.5,0,.165-.39.263-.106.512-.053.2-1.708,5.67-1.833,6.212" />
                     <path d="M25.034,16.276s-.29.309-.727.309c-.469,0-.552-.4-.552-.494a3.687,3.687,0,0,1,.093-.7c.087-.331,1.235-3.5,1.235-3.5s.176-.525.716-.525c.475,0,.564.234.564.436a2.636,2.636,0,0,1-.106.557c-.058.217-1.168,3.8-1.223,3.912" />

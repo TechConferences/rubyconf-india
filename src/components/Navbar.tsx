@@ -29,30 +29,30 @@ const Navbar = () => {
     >
       <div className="container flex items-center justify-between">
         <div className="flex items-center">
-          <div className="text-2xl font-bold text-amber-700">
+          <div className="text-2xl font-bold text-burgundy-800">
             <span className="font-display">RubyConf</span>
-            <span className="text-amber-600">India</span>
+            <span className="text-burgundy-700">India</span>
           </div>
         </div>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
-          <a href="#about" className="font-medium hover:text-amber-600 transition-colors">
+          <a href="#about" className="font-medium hover:text-burgundy-700 transition-colors">
             About
           </a>
-          <a href="#schedule" className="font-medium hover:text-amber-600 transition-colors">
+          <a href="#schedule" className="font-medium hover:text-burgundy-700 transition-colors">
             Schedule
           </a>
-          <a href="#speakers" className="font-medium hover:text-amber-600 transition-colors">
+          <a href="#speakers" className="font-medium hover:text-burgundy-700 transition-colors">
             Speakers
           </a>
-          <a href="#language-roast" className="font-medium hover:text-amber-600 transition-colors">
+          <a href="#language-roast" className="font-medium hover:text-burgundy-700 transition-colors">
             Language Roast
           </a>
-          <a href="#sponsors" className="font-medium hover:text-amber-600 transition-colors">
+          <a href="#sponsors" className="font-medium hover:text-burgundy-700 transition-colors">
             Sponsors
           </a>
-          <Button className="bg-amber-600 hover:bg-amber-700">Register Now</Button>
+          <Button className="bg-burgundy-800 hover:bg-burgundy-900">Register Now</Button>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -128,7 +128,7 @@ const Navbar = () => {
             >
               Sponsors
             </a>
-            <Button className="bg-amber-600 hover:bg-amber-700 w-full">Register Now</Button>
+            <Button className="bg-burgundy-800 hover:bg-burgundy-900 w-full">Register Now</Button>
           </div>
         </div>
       )}
