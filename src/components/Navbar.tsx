@@ -29,30 +29,30 @@ const Navbar = () => {
     >
       <div className="container flex items-center justify-between">
         <div className="flex items-center">
-          <div className="text-2xl font-bold text-ruby-700">
+          <div className="text-2xl font-bold text-ocean-700">
             <span className="font-display">RubyConf</span>
-            <span className="text-ruby-600">India</span>
+            <span className="text-ocean-600">India</span>
           </div>
         </div>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
-          <a href="#about" className="font-medium hover:text-ruby-600 transition-colors">
+          <a href="#about" className="font-medium hover:text-ocean-600 transition-colors">
             About
           </a>
-          <a href="#schedule" className="font-medium hover:text-ruby-600 transition-colors">
+          <a href="#schedule" className="font-medium hover:text-ocean-600 transition-colors">
             Schedule
           </a>
-          <a href="#speakers" className="font-medium hover:text-ruby-600 transition-colors">
+          <a href="#speakers" className="font-medium hover:text-ocean-600 transition-colors">
             Speakers
           </a>
-          <a href="#language-roast" className="font-medium hover:text-ruby-600 transition-colors">
+          <a href="#language-roast" className="font-medium hover:text-ocean-600 transition-colors">
             Language Roast
           </a>
-          <a href="#sponsors" className="font-medium hover:text-ruby-600 transition-colors">
+          <a href="#sponsors" className="font-medium hover:text-ocean-600 transition-colors">
             Sponsors
           </a>
-          <Button className="bg-ruby-600 hover:bg-ruby-700">Register Now</Button>
+          <Button className="bg-ocean-600 hover:bg-ocean-700">Register Now</Button>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -128,7 +128,7 @@ const Navbar = () => {
             >
               Sponsors
             </a>
-            <Button className="bg-ruby-600 hover:bg-ruby-700 w-full">Register Now</Button>
+            <Button className="bg-ocean-600 hover:bg-ocean-700 w-full">Register Now</Button>
           </div>
         </div>
       )}

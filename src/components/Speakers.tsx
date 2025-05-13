@@ -74,7 +74,7 @@ const Speakers = () => {
       <div className="container max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-display font-bold mb-4">Our Speakers</h2>
-          <div className="w-24 h-1 bg-ruby-600 mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-ocean-600 mx-auto mb-6"></div>
           <p className="max-w-2xl mx-auto text-gray-600">
             Meet the industry experts and thought leaders who will be sharing their knowledge and insights at RubyConf India 2025.
           </p>
@@ -92,9 +92,9 @@ const Speakers = () => {
               </div>
               <CardContent className="p-5">
                 <h3 className="font-bold text-lg">{speaker.name}</h3>
-                <div className="text-ruby-600 text-sm font-medium">{speaker.role}</div>
+                <div className="text-ocean-600 text-sm font-medium">{speaker.role}</div>
                 <div className="text-gray-500 text-sm mb-3">{speaker.company}</div>
-                <div className="text-xs font-medium bg-ruby-50 text-ruby-700 px-3 py-1 rounded-full inline-block">
+                <div className="text-xs font-medium bg-ocean-50 text-ocean-700 px-3 py-1 rounded-full inline-block">
                   {speaker.topic}
                 </div>
               </CardContent>
