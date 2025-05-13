@@ -6,6 +6,7 @@ import Schedule from "@/components/Schedule";
 import Speakers from "@/components/Speakers";
 import LanguageRoast from "@/components/LanguageRoast";
 import Sponsors from "@/components/Sponsors";
+import GetInTouch from "@/components/GetInTouch";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -19,6 +20,7 @@ const Index = () => {
         <Speakers />
         <LanguageRoast />
         <Sponsors />
+        <GetInTouch />
       </main>
       <Footer />
     </div>
