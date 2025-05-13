@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
@@ -15,18 +14,22 @@ const Hero = () => {
             <span className="text-burgundy-800">RubyConf</span> India 2025
           </h1>
           <div className="burgundy-gradient text-white text-lg md:text-xl font-medium px-6 py-2 rounded-full mb-8">
-            June 15-16, 2025 • Bangalore, India
+            September 12-13, 2025 • Jaipur, India
           </div>
           <p className="text-lg md:text-xl max-w-3xl mb-10">
             Join India's largest Ruby community for two days of inspiring talks,
-            panel discussions, workshops, and networking opportunities.
+            networking opportunities and{" "}
+            <span className="text-red-500">language roast.</span>
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-4">
             <Button className="bg-burgundy-800 hover:bg-burgundy-900 text-lg px-8 py-6">
               Register Now
             </Button>
-            <Button variant="outline" className="border-burgundy-700 text-burgundy-800 hover:bg-burgundy-50 text-lg px-8 py-6">
+            <Button
+              variant="outline"
+              className="border-burgundy-700 text-burgundy-800 hover:bg-burgundy-50 text-lg px-8 py-6"
+            >
               Become a Speaker
             </Button>
           </div>
@@ -35,20 +38,25 @@ const Hero = () => {
         <div className="bg-white/60 backdrop-blur-sm border border-gray-200 rounded-xl p-6 flex flex-col md:flex-row justify-between items-center gap-8 animate-fade-in">
           <div className="text-center md:text-left">
             <div className="text-gray-500 font-medium">Date & Location</div>
-            <div className="text-xl font-bold">June 15-16, 2025</div>
-            <div className="text-gray-700">The Leela Palace, Bangalore</div>
+            <div className="text-xl font-bold">September 12-13, 2025</div>
+            <div className="text-gray-700">Hotel Clarks Amer, Jaipur</div>
           </div>
-          
+
           <div className="text-center">
             <div className="text-gray-500 font-medium">Expected Attendees</div>
-            <div className="text-4xl font-bold text-burgundy-800">600+</div>
+            <div className="text-4xl font-bold text-burgundy-800">300+</div>
             <div className="text-gray-700">Ruby Enthusiasts</div>
           </div>
-          
+
           <div className="text-center md:text-right">
             <div className="text-gray-500 font-medium">Highlights</div>
-            <div className="text-xl font-bold">20+ Speakers</div>
-            <div className="text-gray-700">Technical Talks & Panel Discussions</div>
+            <div className="text-xl font-bold">10+ Speakers</div>
+            <div className="text-gray-700">
+              Technical Talks
+              <p>
+                <span className="text-red-500">Language roast</span>
+              </p>
+            </div>
           </div>
         </div>
       </div>

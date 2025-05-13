@@ -1,5 +1,4 @@
-
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 
 const Navbar = () => {
@@ -37,22 +36,41 @@ const Navbar = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
-          <a href="#about" className="font-medium hover:text-burgundy-700 transition-colors">
+          <a
+            href="#about"
+            className="font-medium hover:text-burgundy-700 transition-colors"
+          >
             About
           </a>
-          <a href="#schedule" className="font-medium hover:text-burgundy-700 transition-colors">
+          {/* <a href="#schedule" className="font-medium hover:text-burgundy-700 transition-colors">
             Schedule
           </a>
           <a href="#speakers" className="font-medium hover:text-burgundy-700 transition-colors">
             Speakers
-          </a>
-          <a href="#language-roast" className="font-medium hover:text-burgundy-700 transition-colors">
+          </a> */}
+          <a
+            href="#language-roast"
+            className="font-medium hover:text-burgundy-700 transition-colors"
+          >
             Language Roast
           </a>
-          <a href="#sponsors" className="font-medium hover:text-burgundy-700 transition-colors">
+          <a
+            href="#sponsors"
+            className="font-medium hover:text-burgundy-700 transition-colors"
+          >
             Sponsors
           </a>
-          <Button className="bg-burgundy-800 hover:bg-burgundy-900">Register Now</Button>
+          <a
+            href="#"
+            className="font-medium hover:text-burgundy-700 transition-colors"
+          >
+            Photo Gallery
+          </a>
+          <a href="#" className="inline-block">
+            <Button className="bg-burgundy-800 hover:bg-burgundy-900">
+              Register Now
+            </Button>
+          </a>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -128,7 +146,9 @@ const Navbar = () => {
             >
               Sponsors
             </a>
-            <Button className="bg-burgundy-800 hover:bg-burgundy-900 w-full">Register Now</Button>
+            <Button className="bg-burgundy-800 hover:bg-burgundy-900 w-full">
+              Register Now
+            </Button>
           </div>
         </div>
       )}
