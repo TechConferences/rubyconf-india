@@ -5,9 +5,9 @@ import Schedule from "@/components/Schedule";
 import Speakers from "@/components/Speakers";
 import LanguageRoast from "@/components/LanguageRoast";
 import Footer from "@/components/Footer";
-import GetInTouch from "@/components/GetInTouch";
 import SponsorshipPlans from "@/components/SponsorshipPlans";
 import Sponsors from "@/components/Sponsors";
+import GetInTouch from "@/components/GetInTouch";
 
 const Index = () => {
   return (
@@ -20,8 +20,8 @@ const Index = () => {
         {/* <Speakers /> */}
         <LanguageRoast />
         <SponsorshipPlans />
+        {/* <Sponsors /> */}
         <GetInTouch />
-        <Sponsors />
       </main>
       <Footer />
     </div>

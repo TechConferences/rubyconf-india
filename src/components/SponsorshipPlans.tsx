@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Trophy, Star, Award } from "lucide-react";
 
 const SponsorshipPlans = () => {
   return (
@@ -20,6 +21,9 @@ const SponsorshipPlans = () => {
           <div className="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
             <div className="bg-ruby-600 py-3 text-center">
               <h3 className="text-white font-bold text-lg">Platinum Sponsor</h3>
+            </div>
+            <div className="flex justify-center mt-4">
+              <Trophy className="h-10 w-10 text-yellow-500" />
             </div>
             <div className="p-6">
               <div className="text-center mb-4">
@@ -198,6 +202,9 @@ const SponsorshipPlans = () => {
             <div className="bg-ruby-700 py-3 text-center">
               <h3 className="text-white font-bold text-lg">Gold Sponsor</h3>
             </div>
+            <div className="flex justify-center mt-4">
+              <Star className="h-10 w-10 text-yellow-600" />
+            </div>
             <div className="p-6">
               <div className="text-center mb-4">
                 <span className="text-3xl font-bold">₹7,00,000</span>
@@ -335,31 +342,14 @@ const SponsorshipPlans = () => {
             <div className="bg-ruby-800 py-3 text-center">
               <h3 className="text-white font-bold text-lg">Silver Sponsor</h3>
             </div>
+            <div className="flex justify-center mt-4">
+              <Award className="h-10 w-10 text-gray-400" />
+            </div>
             <div className="p-6">
               <div className="text-center mb-4">
                 <span className="text-3xl font-bold">₹2,00,000</span>
               </div>
               <ul className="space-y-3 mb-6">
-                <li className="flex items-start">
-                  <div className="mr-3 mt-1 text-ruby-600">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                  </div>
-                  <div>
-                    <strong>3 Exhibition Standees </strong>to capture attention
-                    and attract visitors!
-                  </div>
-                </li>
                 <li className="flex items-start">
                   <div className="mr-3 mt-1 text-ruby-600">
                     <svg
@@ -451,39 +441,7 @@ const SponsorshipPlans = () => {
         {/* Single Contact Us button in the middle */}
         <div className="text-center mb-12">
           <Button className="px-10 py-6 text-lg bg-ruby-600 hover:bg-ruby-700">
-            Contact Us
-          </Button>
-        </div>
-
-        <div className="bg-white rounded-xl shadow-md p-8 text-center">
-          <h3 className="text-2xl font-bold mb-3">
-            Custom Sponsorship Opportunities
-          </h3>
-          <p className="text-gray-600 max-w-2xl mx-auto mb-6">
-            Looking for a unique way to reach Ruby developers?
-          </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            {/* <div className="bg-gray-50 px-4 py-2 rounded-full text-sm">
-              Lanyard Sponsor
-            </div>
-            <div className="bg-gray-50 px-4 py-2 rounded-full text-sm">
-              Coffee Break Sponsor
-            </div>
-            <div className="bg-gray-50 px-4 py-2 rounded-full text-sm">
-              After-Party Sponsor
-            </div>
-            <div className="bg-gray-50 px-4 py-2 rounded-full text-sm">
-              Wi-Fi Sponsor
-            </div>
-            <div className="bg-gray-50 px-4 py-2 rounded-full text-sm">
-              Swag Sponsor
-            </div> */}
-          </div>
-          <Button
-            variant="outline"
-            className="mt-6 border-ruby-600 text-ruby-700 hover:bg-ruby-50"
-          >
-            Download Sponsorship Prospectus
+            Become a Sponsor
           </Button>
         </div>
       </div>
