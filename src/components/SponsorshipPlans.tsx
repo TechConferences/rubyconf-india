@@ -440,9 +440,11 @@ const SponsorshipPlans = () => {
 
         {/* Single Contact Us button in the middle */}
         <div className="text-center mb-12">
-          <Button className="px-10 py-6 text-lg bg-ruby-600 hover:bg-ruby-700">
-            Become a Sponsor
-          </Button>
+          <a href="mailto:team@rubyconfindia.org">
+            <Button className="px-10 py-6 text-lg bg-ruby-600 hover:bg-ruby-700">
+              Become a Sponsor
+            </Button>
+          </a>
         </div>
       </div>
     </section>

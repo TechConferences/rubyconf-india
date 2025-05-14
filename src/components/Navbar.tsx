@@ -37,7 +37,8 @@ const Navbar = () => {
             Sponsors
           </a>
           <a
-            href="#"
+            href="https://www.flickr.com/photos/199139119@N05/albums/72177720322448501/"
+            target="_blank"
             className="font-medium hover:text-white/80 transition-colors"
           >
             Photo Gallery
