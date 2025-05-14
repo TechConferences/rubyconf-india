@@ -11,17 +11,38 @@ import GetInTouch from "@/components/GetInTouch";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col scroll-smooth">
       <Navbar />
       <main>
         <Hero />
-        <About />
-        {/* <Schedule /> */}
-        {/* <Speakers /> */}
-        <LanguageRoast />
-        <SponsorshipPlans />
-        {/* <Sponsors /> */}
-        <GetInTouch />
+
+        <section id="about">
+          <About />
+        </section>
+
+        {/* <section id="schedule">
+          <Schedule />
+        </section> */}
+
+        {/* <section id="speakers">
+          <Speakers />
+        </section> */}
+
+        <section id="language-roast">
+          <LanguageRoast />
+        </section>
+
+        {/* <section id="sponsors">
+          <Sponsors />
+        </section> */}
+
+        <section id="sponsorship-plans">
+          <SponsorshipPlans />
+        </section>
+
+        <section id="get-in-touch">
+          <GetInTouch />
+        </section>
       </main>
       <Footer />
     </div>
