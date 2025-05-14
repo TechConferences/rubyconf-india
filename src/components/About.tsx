@@ -37,7 +37,7 @@ const About = () => {
                   <strong>Technical Talks:</strong> In-depth sessions on Ruby, Rails, and related technologies
                 </div>
               </li>
-              <li className="flex items-start">
+              {/* <li className="flex items-start">
                 <div className="mr-3 mt-1 text-burgundy-700">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
@@ -46,7 +46,7 @@ const About = () => {
                 <div>
                   <strong>Panel Discussions:</strong> Industry experts discuss trends and future of Ruby
                 </div>
-              </li>
+              </li> */}
               <li className="flex items-start">
                 <div className="mr-3 mt-1 text-burgundy-700">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -69,9 +69,9 @@ const About = () => {
               </li>
             </ul>
             
-            <Button className="mt-8 bg-burgundy-800 hover:bg-burgundy-900">
+            {/* <Button className="mt-8 bg-burgundy-800 hover:bg-burgundy-900">
               Learn More
-            </Button>
+            </Button> */}
           </div>
           
           <div className="order-1 md:order-2 relative">
@@ -85,7 +85,7 @@ const About = () => {
                       <path fillRule="evenodd" clipRule="evenodd" d="M40 16L60 32L40 48L20 32L40 16Z" fill="#FFFFFF" />
                     </svg>
                   </div>
-                  <h3 className="text-2xl font-bold mb-3">7th Annual Conference</h3>
+                  <h3 className="text-2xl font-bold mb-3">14th Annual Conference</h3>
                   <p className="text-white/80">
                     Join us for our biggest conference yet as we celebrate
                     7 years of Ruby excellence in India
@@ -96,7 +96,7 @@ const About = () => {
             
             <div className="absolute -bottom-6 -right-6 bg-white p-5 rounded-lg shadow-lg hidden md:block">
               <div className="text-center">
-                <div className="text-5xl font-bold font-display text-burgundy-800">7+</div>
+                <div className="text-5xl font-bold font-display text-burgundy-800">14+</div>
                 <div className="text-sm text-gray-600">Years of Building<br/>Ruby Community</div>
               </div>
             </div>

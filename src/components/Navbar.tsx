@@ -1,65 +1,60 @@
-
-import React, { useState, useEffect } from "react";
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
+import RCILOGO from "@/assets/RCI logo.png";
 
 const Navbar = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
   return (
-    <header
-      className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? "bg-white shadow-md py-2" : "bg-transparent py-4"
-      }`}
-    >
-      <div className="container flex items-center justify-between">
-        <div className="flex items-center">
-          <div className="text-2xl font-bold text-burgundy-800">
-            <span className="font-display">RubyConf</span>
-            <span className="text-burgundy-700">India</span>
-          </div>
-        </div>
+    <header className="fixed top-0 w-full z-50 bg-burgundy-800 text-white py-2 shadow-md">
+      <div className="container mx-auto flex items-center justify-between px-4">
+        <a href="/" className="flex items-center overflow-hidden h-12">
+          <img
+            src={RCILOGO}
+            alt="RubyConf India Logo"
+            className="h-12 transform scale-150 object-contain ml-4"
+          />
+        </a>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
-          <a href="#about" className="font-medium hover:text-burgundy-700 transition-colors">
+          <a
+            href="#about"
+            className="font-medium hover:text-white/80 transition-colors"
+          >
             About
           </a>
-          <a href="#schedule" className="font-medium hover:text-burgundy-700 transition-colors">
-            Schedule
-          </a>
-          <a href="#speakers" className="font-medium hover:text-burgundy-700 transition-colors">
-            Speakers
-          </a>
-          <a href="#language-roast" className="font-medium hover:text-burgundy-700 transition-colors">
+          <a
+            href="#language-roast"
+            className="font-medium hover:text-white/80 transition-colors"
+          >
             Language Roast
           </a>
-          <a href="#sponsors" className="font-medium hover:text-burgundy-700 transition-colors">
+          <a
+            href="#sponsors"
+            className="font-medium hover:text-white/80 transition-colors"
+          >
             Sponsors
           </a>
-          <Button className="bg-burgundy-800 hover:bg-burgundy-900">Register Now</Button>
+          <a
+            href="https://www.flickr.com/photos/199139119@N05/albums/72177720322448501/"
+            target="_blank"
+            className="font-medium hover:text-white/80 transition-colors"
+          >
+            Photo Gallery
+          </a>
+          <a href="#">
+            <Button className="bg-white text-burgundy-800 hover:bg-gray-100">
+              Register Now
+            </Button>
+          </a>
         </nav>
 
         {/* Mobile Menu Button */}
         <div className="md:hidden">
           <Button
             variant="ghost"
-            className="text-gray-800"
+            className="text-white"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
             <svg
@@ -91,44 +86,46 @@ const Navbar = () => {
 
       {/* Mobile Navigation */}
       {mobileMenuOpen && (
-        <div className="md:hidden bg-white">
-          <div className="container py-4 flex flex-col space-y-4">
+        <div className="md:hidden bg-burgundy-800 text-white">
+          <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
             <a
               href="#about"
-              className="px-4 py-2 hover:bg-gray-100 rounded"
+              className="px-4 py-2 hover:bg-burgundy-700 rounded"
               onClick={() => setMobileMenuOpen(false)}
             >
               About
             </a>
             <a
               href="#schedule"
-              className="px-4 py-2 hover:bg-gray-100 rounded"
+              className="px-4 py-2 hover:bg-burgundy-700 rounded"
               onClick={() => setMobileMenuOpen(false)}
             >
               Schedule
             </a>
             <a
               href="#speakers"
-              className="px-4 py-2 hover:bg-gray-100 rounded"
+              className="px-4 py-2 hover:bg-burgundy-700 rounded"
               onClick={() => setMobileMenuOpen(false)}
             >
               Speakers
             </a>
             <a
               href="#language-roast"
-              className="px-4 py-2 hover:bg-gray-100 rounded"
+              className="px-4 py-2 hover:bg-burgundy-700 rounded"
               onClick={() => setMobileMenuOpen(false)}
             >
               Language Roast
             </a>
             <a
               href="#sponsors"
-              className="px-4 py-2 hover:bg-gray-100 rounded"
+              className="px-4 py-2 hover:bg-burgundy-700 rounded"
               onClick={() => setMobileMenuOpen(false)}
             >
               Sponsors
             </a>
-            <Button className="bg-burgundy-800 hover:bg-burgundy-900 w-full">Register Now</Button>
+            <Button className="bg-white text-burgundy-800 hover:bg-gray-100 w-full">
+              Register Now
+            </Button>
           </div>
         </div>
       )}
